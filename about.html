@@ -5,10 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile.css">
     <title> Hotell | Kirjeldus</title>
 </head>
 <body>
 		<header>
+        <!--navigatsioon-->
           <nav id="navbar">
           <div class="container">
           <h1><a href="index.html">VOCO</a></h1>
@@ -20,8 +22,35 @@
             </div>
         </nav>
     </header>
+    <!--info-->
+    <section id="about-info" class="bg-light py-30">
+        <div class="container">
+        <div class="info-left">
+           <h1> VOCO <span class="text-primary">Kirjeldus</span></h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus neque quibusdam vitae natus rem sapiente ad laboriosam incidunt, accusantium temporibus deleniti eaque, facilis quia reprehenderit amet inventore soluta ducimus modi?</p>
+        </div>    
+        <div class="info-right">
+            <img src="./img/photo-2.jpg" alt="hotell">
+        </div> 
+        </div> 
+    </section>
     <div class="clear"></div>
-    <footer >
+    <!--client testimonials-->
+    <section id="testimonials" class="py-30">
+        <div class="container">
+            <h2>Külaliste Arvamused</h2>
+        <div class="testimonial bg-primary">
+            <img src="./img/person-1.jpg" alt="Kati">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum autem eos accusamus blanditiis, minima deleniti impedit consequatur facere suscipit assumenda vitae consequuntur repellat asperiores. Veniam at temporibus rerum ratione nobis!</p>
+      </div>
+      <div class="testimonial bg-primary">
+        <img src="./img/person-2.jpg" alt="Kadri">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum autem eos accusamus blanditiis, minima deleniti impedit consequatur facere suscipit assumenda vitae consequuntur repellat asperiores. Veniam at temporibus rerum ratione nobis!</p>
+        </div>
+        </div>
+        </section>
+    <div class="clear"></div>
+    <footer>
         <p>VOCO &copy;2025, Kõik õigused on kaitstud</p>
     </footer>
 </body>
